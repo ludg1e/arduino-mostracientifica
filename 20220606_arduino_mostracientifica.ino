@@ -17,7 +17,7 @@
 //start the motor
 /*
  * create an instance of the stepper class, specifying the number
- * of steps the motor has (steps variable) and the pins it's attached to.
+ * of steps the motor has (steps variable) and the pins it's attached to
  */
 Stepper stepper(steps, 8, 10, 9, 11); //don't order pins
 
